@@ -154,7 +154,7 @@ version = "v1.12 (stable)"
 githubbranch = "release-1.12.0"
 docsbranch = "master"
 # Set master version url
-url = "/"
+url = "https://cloudforet-io.github.io/v1-12/"
 
 [[params.versions]]
 fullversion = "latest"
@@ -162,4 +162,4 @@ version = "latest"
 githubbranch = "master"
 docsbranch = "master"
 # Set master version url
-url = "https://cloudforet-io.github.io"
+url = "https://cloudforet.io"

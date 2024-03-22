@@ -156,92 +156,10 @@ docsbranch = "master"
 # Set master version url
 url = "/"
 
+[[params.versions]]
 fullversion = "latest"
 version = "latest"
 githubbranch = "master"
 docsbranch = "master"
 # Set master version url
 url = "https://cloudforet-io.github.io"
-
-[[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    identifier = "docs"
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
-
-[[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "community"
-    name = "Community"
-    url = "/community/"
-    weight = 4
-
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 5
-
-[[menu.footer]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.footer]]
-    identifier = "docs"
-    name = "Docs"
-    url = "/docs/"
-    weight = 2
-
-[[menu.footer]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 3
-
-[[menu.footer]]
-    identifier = "community"
-    name = "Community"
-    url = "/community/"
-    weight = 4
-
-[[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 5
-
-[[menu.footer]]
-    identifier = "privacy"
-    name = "Privacy Policy"
-    url = "/privacy/"
-    weight = 6
-
-[[menu.footer]]
-    identifier = "terms"
-    name = "Terms of Service"
-    url = "/terms/"
-    weight = 7
-
-[[menu.footer]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 8
-
-[[menu.footer]]
-    identifier = "github"
-    name = "GitHub"
-    url = "

@@ -1,4 +1,4 @@
-baseURL = "https://cloudforet-io.github.io"
+baseURL = "https://cloudforet-io.github.io/v1-12"
 languageCode = "en-us"
 title = "Cloudforet"
 theme = "docsy"
@@ -49,20 +49,6 @@ pygmentsStyle = "tango"
     # Weight used for sorting.
     weight = 1
     description = "Manage multi-cloud environments and your all cloud resources & cost in a single platform that offers support for AWS, Azure, Google Cloud, and more."
-[languages.ko]
-    languageName ="한국어"
-    title = "Cloudforet | 오픈소스 멀티 클라우드 관리 플랫폼"
-    contentDir = "content/ko"
-    time_format_default = "2006.01.02"
-    time_format_blog = "2006.01.02"
-    weight = 2
-    description = "멀티 클라우드 환경에서 클라우드 리소스와 비용을 클라우드포레로 관리할 수 있습니다. AWS, Azure, 구글 클라우드, 오라클, 알리바바 등 다양한 클라우드 서비스를 지원합니다."
-    language_alternatives = ["en"]
-[languages.ja]
-    languageName ="日本語"
-    contentDir = "content/ja"
-    weight = 3
-    language_alternatives = ["en"]
 
 [outputs]
 home = [ "HTML" ]
@@ -169,3 +155,93 @@ githubbranch = "release-1.12.0"
 docsbranch = "master"
 # Set master version url
 url = "/"
+
+fullversion = "latest"
+version = "latest"
+githubbranch = "master"
+docsbranch = "master"
+# Set master version url
+url = "https://cloudforet-io.github.io"
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "/community/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+[[menu.footer]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "docs"
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[[menu.footer]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+[[menu.footer]]
+    identifier = "community"
+    name = "Community"
+    url = "/community/"
+    weight = 4
+
+[[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+[[menu.footer]]
+    identifier = "privacy"
+    name = "Privacy Policy"
+    url = "/privacy/"
+    weight = 6
+
+[[menu.footer]]
+    identifier = "terms"
+    name = "Terms of Service"
+    url = "/terms/"
+    weight = 7
+
+[[menu.footer]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 8
+
+[[menu.footer]]
+    identifier = "github"
+    name = "GitHub"
+    url = "
